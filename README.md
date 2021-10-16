@@ -10,7 +10,7 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-Made a better version of this idea: https://youtu.be/_5pH_tr7uN0?t=196
+### Made a better version of this idea: https://youtu.be/_5pH_tr7uN0?t=196
 
 <br>
 
@@ -20,6 +20,17 @@ Made a better version of this idea: https://youtu.be/_5pH_tr7uN0?t=196
   <img src="./assets/Screenshot_3.png" width="200"/>
   <img src="./assets/Screenshot_4.png" width="200"/>
 </p>
+
+---
+
+## 🛠 What it does
+
+Anti-Procrastinator checks all your open programs, and checks if a chrome tab has "<b>YouTube</b>" (in `Light Mode`) OR "<b>Instagram</b>", "<b>Twitter</b>" (in `Hard Mode`) OR even "<b>WhatsApp</b>" (in `HARDCORE Mode`)
+
+If Anti-Procrastinator finds it, it will close all your chrome tabs <b>instantly!</b>
+
+When you run the program, it will be in your system tray icons, and you can right-click it to show the menu
+In the menu shown in the screenshots above, you can change your mode or turn it off, as well as exit the program.
 
 ---
 
@@ -61,7 +72,7 @@ Create a shortcut to [Anti-Procrastinator](./Anti-Procrastinator.exe) and put it
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/abacaxiguy/blue_spotify/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/abacaxiguy/antiprocrastinator/issues).
 
 ---
 
