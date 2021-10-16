@@ -1,7 +1,7 @@
 from ctypes import WINFUNCTYPE, windll, c_bool, c_int, POINTER, create_unicode_buffer
 from subprocess import call
 import sys
-from PyQt5 import QtWidgets
+from PyQt5.QtWidgets import QMainWindow, QApplication, QSystemTrayIcon, QMenu
 from PyQt5 import QtCore
 from PyQt5 import QtGui
 
@@ -26,6 +26,7 @@ def dont_procrastinate(mode):
     windows(proc(foreach_window), 0)
 
     if mode == 0:
+        print('off')
         return
 
     elif mode == 1:
@@ -62,15 +63,15 @@ def dont_procrastinate(mode):
         print('ERRO')
 
 
-class App(QtWidgets.QMainWindow):
+class App(QMainWindow):
     def __init__(self, parent=None):
         super().__init__(parent)    
-        self.trayIcon = QtWidgets.QSystemTrayIcon(QtGui.QIcon('assets/icon.ico'))
+        self.trayIcon = QSystemTrayIcon(QtGui.QIcon('assets/icon.ico'))
         self.mode = 0
         self.modeStr = 'Light Mode'
         self.trayIcon.setToolTip('Anti-Procrastinator is OFF')
 
-        self.menu = QtWidgets.QMenu()
+        self.menu = QMenu()
 
         self.turnOff = self.menu.addAction('Turn OFF')
         self.turnOff.triggered.connect(lambda checked, index=0: self.change_mode(index))
@@ -108,12 +109,13 @@ class App(QtWidgets.QMainWindow):
         dont_procrastinate(self.mode)
 
 
-if __name__ == '__main__':
-    try:
-        qt = QtWidgets.QApplication(sys.argv)
-        app = App()
-        app.trayIcon.show()
-        qt.exec_()
 
-    except Exception as e:
-        print(e)
+try:
+    qt = QApplication(sys.argv)
+    app = App()
+    app.trayIcon.show()
+    qt.exec_()
+
+except Exception as e:
+    print(e)
+
