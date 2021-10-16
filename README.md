@@ -16,6 +16,7 @@ Made a better version of this idea: https://youtu.be/_5pH_tr7uN0?t=196
   <img src="./assets/Screenshot_1.png" width="200"/>
   <img src="./assets/Screenshot_2.png" width="200"/>
   <img src="./assets/Screenshot_3.png" width="200"/>
+  <img src="./assets/Screenshot_4.png" width="200"/>
 </p>
 
 ---
@@ -24,7 +25,7 @@ Made a better version of this idea: https://youtu.be/_5pH_tr7uN0?t=196
 
 just double-click the [Anti-Procrastinator](./Anti-Procrastinator.exe) and be happy 😀.
 
-# BUT:
+### BUT:
 
 If you want to run it manually:
 
@@ -46,7 +47,7 @@ pip install -r dependencies.txt
 call venv/Scripts/deactivate.bat
 ```
 
-After installing the dependencies, just run `bat main.py`
+After installing the dependencies, just run `main.py`
 
 ---
 
