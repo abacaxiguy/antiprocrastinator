@@ -4,22 +4,26 @@
   </p>
 
   # Anti-Procrastinator
-</div>
+
 
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/abacaxiguy/antiprocrastinator" />
+  <img alt="Github Issues" src="https://img.shields.io/github/issues/abacaxiguy/antiprocrastinator" />
+  <a href="https://github.com/abacaxiguy" target="_blank"><img alt="Follow Me" src="https://img.shields.io/github/followers/abacaxiguy.svg?style=social&label=Follow&maxAge=2592000" /></a>
 </p>
 
 ### Made a better version of this idea: https://youtu.be/_5pH_tr7uN0?t=196
 
 <br>
 
-<p align="center">
+<p>
   <img src="./assets/Screenshot_1.png" width="200"/>
   <img src="./assets/Screenshot_2.png" width="200"/>
   <img src="./assets/Screenshot_3.png" width="200"/>
   <img src="./assets/Screenshot_4.png" width="200"/>
 </p>
+  
+</div>
 
 ---
 
